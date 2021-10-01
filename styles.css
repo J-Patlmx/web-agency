@@ -1,0 +1,858 @@
+/**********************************************************************
+****************************** Font ***********************************
+***********************************************************************/
+@font-face
+{
+	font-family: FontAwesome;
+	src: url(fonts/FontAwesome.otf);
+	src: url(fonts/fontawesome-webfont.ttf);
+	src: url(fonts/fontawesome-webfont.woff)
+}
+
+@font-face
+{
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: Roboto-Medium;
+	src: url(fonts/Roboto-Medium.ttf);
+}
+/**********************************************************************
+***********************************************************************
+***********************************************************************/
+body
+{
+	max-width: 1920px;
+	margin: auto;
+
+}
+/**********************************************************************
+***************************** Menu Header *****************************
+***********************************************************************/
+
+header
+{
+	background-color: white;	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 40;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+header div
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1920px;
+	width: 100%;
+	padding: 15px 0px;
+}
+
+header li a:hover
+{
+	color: black;
+}
+header li:hover
+{
+	border-top: #5BA4C7 outset 3px;
+}
+header img
+{
+	width: 261px;
+	height: 57px;
+	padding-left: 130px;
+}
+header ul
+{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	margin-right: 30px;
+	width: 290px;
+	justify-content: space-between;
+}
+header li
+{
+	border-top: white outset 3px;
+	margin-top: -30px;
+	padding-top: 30px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #777777;
+	font-family: Roboto-Medium, Arial, sans-serif;
+}
+section
+{
+	padding-top: 90px;
+}
+/**********************************************************************
+****************************** Accueil ***********************************
+***********************************************************************/
+#slider img
+ {
+	 width: 100%;
+ }
+
+ #slider
+ {
+	 position: relative;
+	 margin-top: -30px;
+ }
+#text_slider
+{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-family: Roboto-Medium, Arial, sans-serif;
+	color: white;
+}
+
+#H1_WebAgency
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	width: 460px;
+}
+
+#WebAgency_Bleu /*--------------"WebAgency Banniere en bleu------------------*/
+{
+	color: #5BA4C6;
+} 
+
+.sec_projets li 
+{
+	padding-top: 33px;
+	margin-top : -30px;
+	margin-bottom: 0px;
+	width: 70px;
+	text-align: center;
+}
+
+#bouton_infos
+{
+	background-color: #5CADD3;
+	color: white;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 0px #4494BB;
+}
+
+#paragraphe_webagency
+{
+	margin-bottom: 30px;
+	margin-top: -14px;
+	font-size: 14px;
+}
+
+#onglet_left{
+	background-color: rgba(0,0,0,0.4);
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color: white;
+}
+
+#margeonglet
+{
+	margin-left: 3px;
+}
+
+#onglet_right{
+	background-color: rgba(0,0,0,0.4);
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px; 
+	color: white;
+}
+
+#margeongletr
+{
+	margin-right: 3px;
+}
+
+#onglets
+{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.stripe
+{
+	display: flex;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+}
+
+#stripe-bleu
+{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 5px; 
+	width: 5%;
+	background-color: #5BA4C5;
+	opacity: 1;
+}
+
+#stripe-gris
+{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 5px; 
+	width: 95%;
+	background-color: lightgrey;
+	opacity: 0.2;
+}
+/*----------------------------------------------------------------------------------
+---------------------------------- Nos Services ------------------------------------
+-----------------------------------------------------------------------------------*/
+.hr1
+{
+	width: 4%;
+	opacity: 0.3;		
+	margin-right: 3px;
+}
+
+.hr2
+{
+	width: 4%;
+	opacity: 0.3;
+	margin-left: 3px;
+}
+
+.separation1
+{
+	display: flex;
+	margin-top: -30px;
+	justify-content: center
+}
+
+.circle
+{
+	color: #5BA4C5;
+}
+
+#ux, #ui, #seo
+{
+		width: 50%;
+}
+
+h2
+{
+	font-family: Roboto-Medium, Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+h3
+{
+	font-family: Roboto-Medium, Arial, sans-serif;
+}
+
+#entete_sec_services p
+{
+	text-align: center;
+}
+
+
+
+#fa-pie, #fa-line, #fa-cubes
+{
+	color: #5ba4c5;
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border: 1px rgba(0,0,0,0.3) solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+}
+
+#seo_service
+{
+	display: flex;
+}
+
+#entete_sec_services p
+{
+	justify-content: center;
+	color: black;
+}
+
+p
+{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#undersec_services
+{
+	display: flex;
+
+	margin-left: 13%;
+}
+
+#ui_design
+{
+	display: flex;
+}
+
+#ux_design
+{
+	display: flex;
+}
+
+#liste_services
+{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+#logo_mac
+{
+	margin-top: 110px;
+}
+
+#services
+{
+	padding-top: 120px;
+}
+
+.circle2
+{
+	color: #5BA4C6;
+	margin-top: 75px;
+	margin-left: -38px;
+	margin-right: 25px;
+}
+
+/*------------------------------------------------------------------------------
+------------------------------- Nos Projets -------------------------------------
+--------------------------------------------------------------------------------*/
+#sec_projets
+{
+	background-color: #F5F5F5;
+	margin-top: -30px;
+	width: 100%;
+	margin-bottom: auto;
+	height: auto;
+	padding-top: -90px;
+}
+
+#servtext
+{
+	text-align: center;
+}
+/*---------------------------------------------------------------------------------
+-----------------------------Menu Nos Projets--------------------------------------
+----------------------------------------------------------------------------------*/
+#boxnav
+{
+	width: 100%;
+	
+}
+
+#menu_projets
+{
+	display: flex;
+	position: relative;
+	list-style: none;
+	justify-content: center;
+
+} 
+
+#menu_projets li
+{
+	padding: 1% 1% 1% 1%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #686C71;
+	font-family: Roboto-Medium;	
+	font-size: 13PX;
+	position: relative;
+	background-color: #E5E5E5;
+}
+
+#creative, #corporate
+{
+	background-color: #E5E5E5;
+}
+
+#portfoliomenu
+{
+	background-color: #E5E5E5;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%; 
+}
+
+#allworks
+{
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+	position: relative;
+}
+
+#menu_projets li:hover
+{
+	background-color: #5CADD3;
+	color: white;
+	border-bottom: 3px #468CAD solid;
+}
+
+#mnp1, #mnp2, #mnp3, #mnp4
+{
+
+	visibility: hidden;
+	position: absolute;
+	bottom: -18px;
+	left: 40%;
+	color: #468CAD;
+}
+
+#allworks:hover #mnp4
+{
+	visibility: visible;
+}
+
+#creative:hover #mnp3
+{
+	visibility: visible;
+}
+#corporate:hover #mnp2
+{
+	visibility: visible;
+}
+#portfoliomenu:hover #mnp1
+{
+	visibility: visible;
+}
+/*-------------------------------------------------------------------------------*/
+#portfolio
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+}
+
+#portfolio img
+{
+	max-height: 180px;
+	position: relative;
+}
+
+
+figure
+{
+	display: inline-block;
+	position: relative;
+	margin : auto;
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+
+.figcap
+{
+	position: absolute;
+	bottom: 3px;
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 200px;
+	visibility: hidden;
+}
+
+
+
+ #fig1:hover .figcap
+ {
+ 	visibility: visible;
+ }
+
+ #fig2:hover .figcap
+ {
+ 	visibility: visible;
+ }
+
+ #fig3:hover .figcap
+ {
+ 	visibility: visible;
+ }
+
+  #fig4:hover .figcap
+ {
+ 	visibility: visible;
+ }
+  #fig5:hover .figcap
+ {
+ 	visibility: visible;
+ }
+  #fig6:hover .figcap
+ {
+ 	visibility: visible;
+ }
+  #fig7:hover .figcap
+ {
+ 	visibility: visible;
+ }
+  #fig8:hover .figcap
+ {
+ 	visibility: visible;
+ }
+ 
+
+ .figcap p
+ {
+	 color: white;
+	 margin-left: -210px;
+ }
+
+.fa-eye
+{
+	position: absolute;
+	color: white;
+	background-color: #5890A8;
+	padding-right: 13px;
+	padding-left: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 50px;
+	top: -20px;
+	left: 210px;
+	border: 2px white solid;
+}
+
+.figcap p
+{
+	color: white;
+	margin-left: -190px;
+	padding-right: 180px;
+	height: 40px;
+	width: 300px;
+}
+
+.era
+{
+	position: relative;
+}
+
+.gras
+{
+	font-weight: bold;
+	font-size: 20px;
+}	
+
+/*-------------------------------------------------------------------------------
+---------------------------- Contact --------------------------------------------
+-------------------------------------------------------------------------------*/
+#sec_form
+{
+	background-color: #F5F5F5;
+}
+#contframe
+{
+	position: relative;
+}
+
+#filtre
+{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 450px;
+	background-color: rgb(185, 245, 253,0.5);
+	padding: 50px 0px 50px 0px;
+	pointer-events: none;
+}
+
+iframe
+{
+	width: 100%;
+}
+
+#formulaire
+{
+	display: flex;
+	flex-direction: column;
+}
+#contact
+{
+	text-transform: none;
+	text-align: left;
+	font-size: 25px;
+}
+#contactinfo
+{
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	bottom: 4%;
+	background-color: rgba(255,255,255,0.8);
+	border: 1px solid rgba(255,255,255,0.9);
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+#centrage
+{
+	width: 240px;
+}
+input
+{
+	margin-bottom: 20px;
+	border-radius: 4px;
+	border: 1px solid grey;
+	padding: 6px 0px 6px 6px;
+}
+
+#SAS
+{
+	font-weight: bold;
+}
+
+form p
+{
+	background-color: #5CADD3;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	width: 45%;
+	border-radius: 3px;
+	border-bottom: 3px #468CAD solid;
+	
+}
+
+textarea
+{
+	font-family: Arial, sans-serif;
+	padding: 6px 0px 6px 6px;
+	border-radius: 4px;
+	border: 1px solid grey;
+}
+
+
+@media screen and (max-width: 1091px)
+{
+figure
+{
+	display: block;
+}
+}
+/********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+************************************** Media Queries 1025px  ********************************************************
+*********************************************************************************************************************	
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************/
+@media screen and (max-width: 1025px)
+{
+	#brtest
+	{
+		display: none;
+	}
+	figure 
+	{
+		display: block;
+		margin: auto;
+	}
+	#undersec_services
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#logo_mac
+	{
+		display: none;
+	}
+	#liste_services
+	{
+		justify-content: center;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	#ux, #ui, #seo
+	{
+		width: 70%;
+	}
+	#servtext
+	{
+		width: 60%;	
+		margin: auto;
+		padding-top: 20px;
+	
+	}
+	#menu_projets {
+		margin: 12px 40px 2px 6px;
+		align-items: center;
+		display: flex;
+		list-style: none;
+		justify-content: center;
+	}
+
+	iframe
+	{
+		display: none;
+	}
+	#contactinfo
+	{
+		position: static;
+	}
+	#filtre
+	{
+		display: none;
+	}
+
+	#butmessage
+	{
+		width: 105px;
+	}
+	#H1_WebAgency, #paragraphe_webagency
+	{
+		font-size: 17px;
+		width: 70%;
+	}
+	#bouton_infos
+	{
+		padding: 5px 5px;
+	}
+	#slider
+	{
+		padding-top: 50px; 
+	}
+	header img
+	{
+		padding-left: 60px;
+	}
+}
+/********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+************************************** Media Queries 625px  *********************************************************
+*********************************************************************************************************************	
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************/
+@media screen and (max-width: 625px)
+{
+	header div
+	{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	header img
+	{
+		margin: 0;
+		padding-left: 0px;
+	}
+	header ul
+	{
+		margin-right: 0;
+	}
+	header li:hover
+	{
+		border: none;
+	}
+	header li
+	{
+		border: none;
+	}
+	#H1_WebAgency, #paragraphe_webagency
+	{
+		font-size: 12px;
+		margin-top: 20px;
+	}
+	#bouton_infos
+	{
+		display: none;
+	}
+	#menu_projets {
+		margin: 12px 30px 2px 6px;
+		align-items: center;
+		display: flex;
+		list-style: none;
+		justify-content: center;
+	}
+}
+
+
+
+
+/********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+**************************************   Media Queries 4k  **********************************************************
+*********************************************************************************************************************	
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************
+*********************************************************************************************************************/
+@media screen and (min-width: 2560px)
+{
+	body
+	{
+		min-width: 2560px;
+		margin: auto;
+		padding-top: 87px;
+	}
+	header div
+	{
+		display: flex;
+		justify-content: space-between;
+		max-width: 2560px;
+		width: 100%;
+		padding: 15px 0px;
+	}
+	header img
+	{
+		padding-left: 260px;
+	}
+	#slider img
+ 	{
+ 		width:  100%;
+ 	}
+
+	#undersec_services
+	{
+		margin-left: 25%;
+	}
+	
+}
